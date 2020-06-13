@@ -11,7 +11,7 @@ public class ValidationUsingAssert {
 		int b = 20;
 		int c= a+b;
 		Assert.assertEquals(c, 30);
-		//Assert.assertTrue(true, "it is not equal to 30");
+		Assert.assertTrue(true, "it is not equal to 30");
 	}
 
 }
