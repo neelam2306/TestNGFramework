@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name = "TestNG framework">
+
+<test name = "test different classes">
+
+<classes>
+<class name= "basicsOfTestng.TestngBasics">
+</class>
+<class name ="basicsOfTestng.ValidationUsingAssert"/>
+
+</classes>
+
+</test>
+</suite>

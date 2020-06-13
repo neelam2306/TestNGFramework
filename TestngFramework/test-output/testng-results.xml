@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG framework" duration-ms="95" started-at="2020-04-26T10:56:00Z" finished-at="2020-04-26T10:56:00Z">
+    <groups>
+      <group name="Sanity test">
+        <method signature="TestngBasics.test4()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="test4" class="basicsOfTestng.TestngBasics"/>
+      </group> <!-- Sanity test -->
+      <group name="Smoke">
+        <method signature="TestngBasics.test1()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="test1" class="basicsOfTestng.TestngBasics"/>
+        <method signature="TestngBasics.test2()[pri:1, instance:basicsOfTestng.TestngBasics@1375618]" name="test2" class="basicsOfTestng.TestngBasics"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="test different classes" duration-ms="95" started-at="2020-04-26T10:56:00Z" finished-at="2020-04-26T10:56:00Z">
+      <class name="basicsOfTestng.ValidationUsingAssert">
+        <test-method status="PASS" signature="assert1()[pri:0, instance:basicsOfTestng.ValidationUsingAssert@10399e]" name="assert1" duration-ms="16" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- assert1 -->
+      </class> <!-- basicsOfTestng.ValidationUsingAssert -->
+      <class name="basicsOfTestng.TestngBasics">
+        <test-method status="PASS" signature="SetProperty()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="SetProperty" is-config="true" duration-ms="31" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetProperty -->
+        <test-method status="PASS" signature="TestItem()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="TestItem" is-config="true" duration-ms="0" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestItem -->
+        <test-method status="PASS" signature="LaunchBrowser()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="LaunchBrowser" is-config="true" duration-ms="0" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchBrowser -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="test1" duration-ms="15" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="EnterURL()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="EnterURL" is-config="true" duration-ms="0" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterURL -->
+        <test-method status="PASS" signature="afterMt()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="afterMt" is-config="true" duration-ms="0" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMt -->
+        <test-method status="PASS" signature="afterMt()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="afterMt" is-config="true" duration-ms="15" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMt -->
+        <test-method status="PASS" signature="test2()[pri:1, instance:basicsOfTestng.TestngBasics@1375618]" name="test2" duration-ms="0" started-at="2020-04-26T16:26:00Z" depends-on-methods="basicsOfTestng.TestngBasics.test1" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="EnterURL()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="EnterURL" is-config="true" duration-ms="0" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterURL -->
+        <test-method status="PASS" signature="EnterURL()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="EnterURL" is-config="true" duration-ms="0" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterURL -->
+        <test-method status="PASS" signature="test3()[pri:2, instance:basicsOfTestng.TestngBasics@1375618]" name="test3" duration-ms="0" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method status="PASS" signature="afterMt()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="afterMt" is-config="true" duration-ms="16" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMt -->
+        <test-method status="PASS" signature="afterMt()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="afterMt" is-config="true" duration-ms="0" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMt -->
+        <test-method status="PASS" signature="test4()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="test4" duration-ms="0" depends-on-groups="Smoke" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method status="PASS" signature="EnterURL()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="EnterURL" is-config="true" duration-ms="0" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EnterURL -->
+        <test-method status="PASS" signature="aftertest()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="aftertest" is-config="true" duration-ms="0" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="afterClass" is-config="true" duration-ms="0" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:basicsOfTestng.TestngBasics@1375618]" name="afterSuite" is-config="true" duration-ms="0" started-at="2020-04-26T16:26:00Z" finished-at="2020-04-26T16:26:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- basicsOfTestng.TestngBasics -->
+    </test> <!-- test different classes -->
+  </suite> <!-- TestNG framework -->
+</testng-results>
